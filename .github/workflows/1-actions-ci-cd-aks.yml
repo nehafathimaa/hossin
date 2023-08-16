@@ -16,7 +16,7 @@ jobs:
     env:
       DOCKER_REPOSITORY: nehafathima # name of Docker Hub ID
       IMAGE_NAME: webapp
-      IMAGE_TAG: ${{ github.run_number }} # $GITHUB_RUN_NUMBER
+      IMAGE_TAG: ${{ github.run_number }} # $GITHUB_RUN_NUMBE
       
       CLUSTER_NAME: aks-cluster
       RESOURSE_GROUP: rg-aks-cluster
